@@ -20,7 +20,6 @@ function countIslands(map) {
             dfs(r + dr, c + dc);
         }
     }
-
     let islandCount = 0;
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < cols; c++) {
